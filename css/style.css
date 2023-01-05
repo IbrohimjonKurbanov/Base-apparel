@@ -1,0 +1,185 @@
+*, *::before, *::after
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html
+{
+    height: 100%;
+    font-size: 62.5%;
+}
+a
+{
+    text-decoration: none;
+}
+ul, ol
+{
+    list-style: none;
+}
+img
+{
+    display: flex;
+}
+body
+{
+    height: 100%;
+    background: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #CE9898;
+}
+.container
+{
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.hero-wrapper
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-img
+{
+   position: absolute;
+   top: 75px;
+}
+.hero-info
+{
+    max-width: 445px;
+}
+.hero-info h1
+{
+   font-size: 6.4rem;
+   line-height: 1.11;
+   letter-spacing: 17.3206px;
+   color: #423A3A;
+   font-family: 600;
+   margin-bottom: 3.2rem;
+}
+.hero-info p
+{
+  margin-bottom: 4rem;
+}
+.span
+{
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 17.3206px;
+    color: #CE9898;
+}
+.hero-image
+{
+    max-width: 100%;
+}
+input
+{
+    border: 1px solid #CE9898;
+    border-radius: 28px  0 0 28px;
+    padding: 15px 0px 15px 32px; 
+    outline: none;
+    width: 420px;
+    padding-right: 50px;
+}
+::placeholder
+{
+    color: #CE9898;
+}
+
+  button
+{
+    position: relative;
+    left: -50px;
+    color: #fff;
+    background: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+    box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);
+    border-radius: 28px 28px 28px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #CE9898;
+    padding: 16px 33px;
+    cursor: pointer;
+    font-size: 24px;  
+}
+form
+{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:375px) {  
+    .hero-wrapper
+    {
+        flex-direction: column-reverse;
+    }
+    .hero-image
+    {
+       width:  390px;
+       height: 320px;
+       margin-bottom: 3rem;
+    }
+    .logo-link
+    {
+        background-color: #fff;
+    }
+    .logo-img
+    {
+        position: static;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .hero-info
+    {
+    max-width: 311px;
+    text-align: center;
+    }
+    .hero-info h1
+    {
+     font-size: 4rem;
+    }
+    .hero-info p
+    {
+        font-size: 1.4rem;
+    }
+    input
+    {
+        max-width: 240px;
+        padding: 9px 24px;
+    }
+    .span
+    {
+        font-size: 4rem;
+    }
+    form
+    {
+        margin-bottom: 5rem;
+        margin-left: 30px;
+    }
+}
+@media (max-width:330px)
+{
+    input
+    {
+        width: 290px;
+    }
+}
